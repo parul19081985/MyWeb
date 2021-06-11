@@ -5,8 +5,6 @@
   border: solid 10px;
 }
 
-
-
 .pro {
   text-decoration: underline;
   display: inline-block;
@@ -24,7 +22,6 @@ img {
   position: fixed;
   top: 0;
 }
-
 
 .blue {
   height: 100px;
@@ -45,24 +42,43 @@ img {
 }
 
 body {
-  background-color: #E4F9F5;
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: "Brush Script MT", cursive;
+  font-size: large;
 }
 
 h1 {
   font-family: 'Great Vibes', cursive;
   margin: 0 auto 0 auto;
+  color: #66BFBF;
+}
+
+h3 {
+  margin: auto;
+  color: #66BFBF;
+  clear: left;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .cloudimage {
-  right: 200px;
+  right: 250px;
+}
 
+.contact-me {
+  width: 40% margin: 40px auto 60px;
 }
 
 .firstcloud {
   left: 200px;
+  top: 40px;
 }
 
 .mountainimage {
@@ -70,5 +86,79 @@ h1 {
 }
 
 p {
+  line-height: 2;
+  font-weight: normal;
+  font-size: 20px;
   font-family: 'Merriweather', serif;
+  color: #66BFBF;
+}
+
+.skilllink1 {
+  width: 10%;
+  margin-left: 400px;
+  float: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.skilllink2 {
+  width: 25%;
+  margin-left: 200px;
+  float: left;
+}
+
+h2 {
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+.skill-row {
+  text-align: center;
+}
+
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 50px;
+  padding: 50px 0 20px;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #EAF6F6;
 }
